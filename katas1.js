@@ -1,91 +1,111 @@
 function oneThroughTwenty() {
-   
+   let resultado = [];
    for (let contagem = 1; contagem <= 20; contagem++){
-    console.log(contagem)
+    resultado += contagem
 
    }
-   
+   return resultado
   }
-  oneThroughTwenty()
+ console.log(oneThroughTwenty())
 
 function evensToTwenty() {
-    
+    let resultado = [];
   for (let pares = 1; pares <= 20; pares++){
     if (pares % 2 ===0)
-    console.log(pares)
+    resultado += pares
   }
+  return resultado
 }
-evensToTwenty()
+console.log(evensToTwenty())
 
 function oddsToTwenty() {
-    
+    let resultado = [];
   for (let impares = 0; impares < 20; impares++) {
     if (impares % 2 != 0) {
-      console.log(impares) 
+      resultado += impares 
 }
   }
+  return resultado
+
 }
-oddsToTwenty()
+console.log(oddsToTwenty())
 
 function multiplesOfFive() {
-  
+  let resultado = [];
   for(let multiplos = 5 ; multiplos <= 100 ; multiplos++){
 		if(multiplos % 5 ==0){
-			console.log(multiplos);
+			resultado += multiplos
 		}
 	}  
+  return resultado
+
  }
- multiplesOfFive()
+ console.log(multiplesOfFive())
 
  function squareNumbers() {
+  let resultado = [];
   for (let quadrados = 1; quadrados < 10; quadrados++) {
-    console.log(quadrados * quadrados);
+    resultado += quadrados
   }
+  return resultado
+
 }
-squareNumbers()
+console.log(squareNumbers())
  
 
 function countingBackwards() {
+  let resultado = [];
   for (let i = 20; i >= 1; i--){
-    console.log(i)
+    resultado += i
 }
+return resultado
+
   }
    
-  countingBackwards() 
+  console.log(countingBackwards()) 
 
   function evenNumbersBackwards() {
+    let resultado = [];
     for (let pares = 20; pares >= 1; pares--){
       if (pares % 2 ===0)
-      console.log(pares)
+      resultado += pares
     }
+    return resultado
+
 }
-evenNumbersBackwards()
+console.log(evenNumbersBackwards())
 
 function oddNumbersBackwards() {  
-     
+   let resultado = [];  
   for (let impares = 20; impares > 1; impares--) {
     if (impares % 2 != 0) {
-      console.log(impares) 
+      resultado += impares 
 }
   }
+  return resultado
+
 }
-  oddNumbersBackwards()
+  console.log(oddNumbersBackwards())
 
   function multiplesOfFiveBackwards() {
-    
+    let resultado = [];
     for(let multiplos = 100 ; multiplos >= 5 ; multiplos--){
       if(multiplos % 5 ==0){
-        console.log(multiplos);
+        resultado += multiplos
       }
     }  
+    return resultado
+
 }
-multiplesOfFiveBackwards()
+console.log(multiplesOfFiveBackwards())
 
 function squareNumbersBackwards() {
-    
+    let resultado = [];
       for (let quadrados = 10; quadrados > 1; quadrados--) {
-      console.log(quadrados * quadrados);
+      resultado += quadrados
     }
+    return resultado
+
   }
 
-  squareNumbersBackwards()
+  console.log(squareNumbersBackwards())
