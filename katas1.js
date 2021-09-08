@@ -77,7 +77,7 @@ console.log(evenNumbersBackwards())
 
 function oddNumbersBackwards() {  
    let resultado = [];  
-  for (let impares = 20; impares > 1; impares--) {
+  for (let impares = 20; impares > 0; impares--) {
     if (impares % 2 != 0) {
       resultado += impares + " "
 }
@@ -99,13 +99,12 @@ function oddNumbersBackwards() {
 }
 console.log(multiplesOfFiveBackwards())
 
-function squareNumbersBackwards() {
+  function squareNumbersBackwards() {
     let resultado = [];
-      for (let quadrados = 10; quadrados > 1; quadrados--) {
+    for (let quadrados = 10; quadrados > 0; quadrados--) {
       resultado += quadrados + " "
     }
     return resultado
-
+  
   }
-
   console.log(squareNumbersBackwards())
